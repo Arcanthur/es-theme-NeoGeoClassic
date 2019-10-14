@@ -5,6 +5,16 @@
 =				  =
 ===================================
 
+
+---------------------------------
+To install run this command:    -
+---------------------------------
+
+sudo mkdir -p "/etc/emulationstation/themes/Neo Geo Classic/" && sudo git clone https://github.com/Arcanthur/es-theme-NeoGeoClassic.git "/etc/emulationstation/themes/Neo Geo Classic/" --branch master --depth=1
+
+----------------------------------
+----------------------------------
+
 To use this theme you must install the emulationstation-dev branch.
 This theme uses the grid view exclusively (for now).
 
