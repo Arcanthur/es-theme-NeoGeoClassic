@@ -1,0 +1,57 @@
+<theme>
+    <formatVersion>6</formatVersion>
+    <include>./../theme.xml</include>
+	
+	<view name="grid">
+		<image name="bg" extra="true">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./bgoverlay.png</path>
+			<zIndex>140</zIndex>
+		</image>
+		<image name="console" extra="true">
+			<pos>0.5 0.075</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.20 0.136</maxSize>
+			<path>./../art/logos/${system.theme}.png</path>
+			<zIndex>150</zIndex>
+		</image>
+		<imagegrid name="gamegrid">
+			<pos>0.17 0.21</pos>
+			<size>0.72 0.36</size>
+			<margin>0.0125 0.0222222222222222</margin>
+			<animate>false</animate>
+			<scrollDirection>vertical</scrollDirection>
+		</imagegrid>
+
+		<gridtile name="default">
+			<size>0.10 0.170</size>
+			<padding>24 24</padding>
+			<backgroundImage>./config-tile.png</backgroundImage>
+			<backgroundCornerSize>0 0</backgroundCornerSize>
+			<backgroundColor>ffffff</backgroundColor>
+			<imageColor>ffffff</imageColor>
+		</gridtile>
+
+		<gridtile name="selected">
+			<size>0.10 0.170</size>
+			<backgroundImage>./config-tile-selected.png</backgroundImage>
+			<backgroundColor>ffffff</backgroundColor>
+		</gridtile>	
+		<image name="arrows_left" extra="true">
+			<pos>0.135 0.395</pos>
+			<maxSize>0.10 0.18</maxSize>
+			<path>./arrows.png</path>
+			<color>ffffff</color>	
+			<origin>0.5 0.5</origin>
+		</image>
+		<image name="arrows_right" extra="true">
+			<pos>0.865 0.395</pos>
+			<maxSize>0.10 0.18</maxSize>
+			<path>./arrows.png</path>
+			<color>ffffff</color>	
+			<origin>0.5 0.5</origin>
+		</image>
+	</view>
+	
+</theme>

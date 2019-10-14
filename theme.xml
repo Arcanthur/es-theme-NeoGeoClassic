@@ -1,0 +1,139 @@
+<theme>
+    <formatVersion>6</formatVersion>
+		
+	<view name="system, grid">	
+		<helpsystem name="help">
+			<fontPath>./art/ContinuumMedium.ttf</fontPath>
+			<origin>0.5 1</origin>
+			<pos>0.5 0.980</pos>
+			<fontSize>0.022</fontSize>
+			<textColor>505050aa</textColor>
+			<iconColor>c0c0c0</iconColor>
+		</helpsystem>				
+		<image name="console" extra="true">
+			<pos>0.5 0.075</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.20 0.136</maxSize>
+			<path>./art/logos/${system.theme}.png</path>
+		</image>			
+	</view>
+	
+	<view name="system">
+		<image name="background" extra="true">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./art/background_home.png</path>
+		</image>
+		<helpsystem name="help">
+			<fontPath>./art/ContinuumMedium.ttf</fontPath>
+			<origin>0.5 1</origin>
+			<pos>0.5 0.980</pos>
+			<fontSize>0.022</fontSize>
+			<textColor>505050aa</textColor>
+			<iconColor>c0c0c0</iconColor>
+		</helpsystem>				
+		<image name="console" extra="true">
+			<pos>0.5 0.075</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.20 0.136</maxSize>
+			<path>./art/logos/${system.theme}.png</path>
+		</image>		
+		<carousel name="systemcarousel">
+			<type>horizontal</type>
+			<color>00000000</color>
+			<logoScale>1.2</logoScale>
+			<logoSize>0.08 0.25</logoSize>
+			<size>1.0 0.8</size>
+			<pos>0.5 0.40</pos>
+			<origin>0.5 0.5</origin>
+			<maxLogoCount>5</maxLogoCount>
+		</carousel>		
+		<image name="logo">
+			<pos>0.5 0.075</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.20 0.30</maxSize>
+			<path>./art/console/${system.theme}.png</path>
+		</image>		
+      <text name="systemInfo">     
+			<pos>0.5 0.818</pos>
+			<size>0.33 0.0592592592592593</size>
+			<origin>0.5 0.5</origin>
+			<fontPath>./art/ContinuumMedium.ttf</fontPath>
+			<fontSize>0.033</fontSize>
+			<color>101010</color>
+			<forceUppercase>true</forceUppercase>	
+			<lineSpacing>1.0</lineSpacing>	     
+      </text>
+		<image name="console_overlay" extra="true">
+			<pos>0.5 0.075</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.20 0.136</maxSize>
+			<path>./art/logos/${system.theme}.png</path>
+		</image>		
+	</view>
+	
+	<view name="grid">	
+		<image name="background" extra="true">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./art/background.png</path>
+		</image>
+		<image name="console" extra="true">
+			<pos>0.5 0.075</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.20 0.136</maxSize>
+			<path>./art/logos/${system.theme}.png</path>
+			<zIndex>150</zIndex>
+		</image>		
+		<text name="md_name">
+			<pos>0.5 0.818</pos>
+			<size>0.33 0.0592592592592593</size>
+			<origin>0.5 0.5</origin>
+			<fontPath>./art/ContinuumMedium.ttf</fontPath>
+			<fontSize>0.033</fontSize>
+			<color>101010</color>
+			<forceUppercase>true</forceUppercase>	
+			<lineSpacing>1.0</lineSpacing>
+		</text>		
+		<text name="md_lbl_players">
+			<pos>0.405 0.088</pos>
+			<size>0.5416666666666667 0.0592592592592593</size>
+			<origin>0.0 0.3</origin>
+			<fontPath>./art/ContinuumMedium.ttf</fontPath>
+			<fontSize>0.022</fontSize>
+			<color>a0a0a0</color>
+			<forceUppercase>true</forceUppercase>
+			<alignment>right</alignment>
+		</text>		
+		<text name="md_players">
+			<pos>0.950 0.088</pos>
+			<size>0.5416666666666667 0.0592592592592593</size>
+			<origin>0.0 0.3</origin>
+			<fontPath>./art/ContinuumMedium.ttf</fontPath>
+			<fontSize>0.022</fontSize>
+			<color>a0a0a0</color>
+			<forceUppercase>true</forceUppercase>
+		</text>		
+		<datetime name="md_releasedate">
+			<pos>0.950 0.127</pos>
+			<size>0.5416666666666667 0.0592592592592593</size>
+			<origin>0.0 0.3</origin>
+			<fontPath>./art/ContinuumMedium.ttf</fontPath>
+			<fontSize>0.022</fontSize>
+			<color>a0a0a0</color>
+			<forceUppercase>true</forceUppercase>	
+			<format>%Y</format>			
+		</datetime>		
+		<text name="md_developer">
+			<pos>0.40 0.127</pos>
+			<size>0.5416666666666667 0.0592592592592593</size>
+			<origin>0.0 0.3</origin>
+			<fontPath>./art/ContinuumMedium.ttf</fontPath>
+			<fontSize>0.022</fontSize>
+			<color>a0a0a0</color>
+			<forceUppercase>true</forceUppercase>	
+			<alignment>right</alignment>
+		</text>
+	</view>
+
+</theme>
