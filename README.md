@@ -1,13 +1,13 @@
 # es-theme-NeoGeoClassic
 Neo Geo AES Classic theme for emulationstation
 
-===========================================
+--------------------------------------------
 NEO GEO CLASSIC THEME
-=
+--------------------------------------------
 Created by Arcanthur      
-=
+--------------------------------------------
 Verions 1.0
-===========================================
+--------------------------------------------
 
 To use this theme you must install the emulationstation-dev branch.
 This theme uses the grid view exclusively (for now).
