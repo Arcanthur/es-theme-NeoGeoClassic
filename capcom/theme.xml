@@ -14,7 +14,7 @@
 		</imagegrid>
 		<gridtile name="default">
 			<size>0.182 0.55</size>
-			<padding>12 220</padding>
+			<padding>12 120</padding>
 			<backgroundImage>./tile.png</backgroundImage>
 			<backgroundCornerSize>0 0</backgroundCornerSize>
 			<backgroundColor>ffffff</backgroundColor>
